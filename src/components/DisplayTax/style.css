@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+}
+.displayBox {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 5px 10px;
+}
+
+.displayList > ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.displayList > ul > li {
+    font-weight: 500;
+    font-size: 1.2rem;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.displayList > ul > li > span {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 600px) {
+    .displayBox {
+        width: 50%;
+    }
+}
