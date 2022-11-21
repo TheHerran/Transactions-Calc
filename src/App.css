@@ -3,10 +3,36 @@
 }
 
 .App-main {
-  background-color: #181818;
+  background-color: #e1e1e1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    position: fixed;
+    margin: 0;
+    padding: 5px 25px;
+    width: 100vw;
+    height: 8%;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px 1px #b2b2b2;
+}
+
+h1 > span {
+    color: #6d0000;
+    font-family: 'Pacifico', cursive;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.8);
+    box-shadow: 0 0 5px 1px #e2e2e2;
 }

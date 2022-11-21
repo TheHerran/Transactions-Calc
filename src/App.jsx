@@ -4,9 +4,10 @@ import Home from './pages/home';
 function App() {
     return (
         <div className="App">
-            <main className="App-main">
+            <h1>Fin<span>$</span>Tech</h1>
+            <section className="App-main">
                 <Home />
-            </main>
+            </section>
         </div>
     );
 }
